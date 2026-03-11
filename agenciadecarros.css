@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
+/* Estilizando o Header */
+.cabecalho {
+    background-color: black;
+    /* cor de fundo  do header*/
+    display: flex;
+    /* tornando os itens lado a lado | flexbox */
+    align-items: center;
+    /* alinhamento vertical */
+    justify-content: space-evenly;
+    /* alihamento horizontal */
+    padding: 30px;
+    /* Preenchimento interno */
+    font-family: "Cormorant Garamond", serif;
+
+}
+
+/* Estilização da logo */
+.img {
+    width: 100px;
+    /* largura da logo Header */
+}
+
+/* Estilização da lista */
+.ul-lista li {
+    list-style: none;
+    /* removendo as bolinhas da lista */
+}
+
+/* Estilização da UL (elemento pai da LI */
+    .ul-lista {
+        display: flex;
+        /* tornando as listas lado a lado(Flexbox) */
+        gap: 15px;
+        /* Espaçamento entre as listas */
+    }
+    /* Aqui estamos estilizando a âncora */
+    .ul-lista li a {
+        text-decoration: none;
+        /* Removendo o sublinhado da âncora */
+        color: black;
+        /* Cor da letra */
+        font-size: 20px;
+        /* tamanho da letra */
+        text-transform: uppercase;
+        /* Tornando o texto em CaspLock */
+        font-family: "UnifraktukMaguntia", cursive;
+        /* Família de font */
+    }
+
+    /* Fim do cabeçalho */
+
+    /* section 01 */
+    .img-section-01 {
+        width: 300px;
+        /* largura da imagem */
+    }
+
+    .section-01 {
+        display: flex;
+        /* tornano o div lado a lado| flexbox */
+        align-items: center;
+        /* Alinhamento vertical */
+        justify-content: space-evenly;
+        /* Alinhamento horizontal */
+        flex-direction: row;
+        /* direção de caixas */
+        background-color: aqua;
+        /* cor de fundo */
+        padding: 40px;
+        /* preenchimento interno */
+        gap: 30px;
+        /* espaço entre as div */
+    }
+
+    .div-02 p {
+        background-color: brown;
+        font-size: 30px;
+        /* tamanho da font */
+        margin-left: 30px;
+        /* margem da esquerda - espaçamento */
+        text-align: center;
+        /* Alinhamento do texto */
+    }
+
+    /* texto na section-01 */
+    span {
+        color: brown;
+        /* cor da letra do span */
+        font-size: 40px;
+        /* tamanho da letra do span */
+
+    }
+
+    /* section-02 */
+    /* Ícones devem ser manipulados como textos (font-size,color...) */
+    .fa-solid {
+        font-size: 60px;
+        color: blue;
+        /* cor de fundo */
+    }
+    .sectio-02 {
+        background-color: aqua;
+        /* cor de fundo */
+        padding: 80px;
+        /* preenchimento interno */
+        color: blueviolet;
+        /* cor das letras (H2 e P */
+        display: flex;
+        /* Tornando aas div lado a lado */
+        align-items: center;
+        /* Alinhamento vertical */
+        flex-direction: column;
+        /* direção de caixas */
+        text-align: center;
+        /* alinhamento texto ao centro */
+    }
+    /* estilização di título section2 */
+    .paragrafo-section-2 h2 {
+        font-size: 30px;
+        /* tamanho do texto h2 */
+        text-transform: uppercase;
+        /* tornando o texto em caixa */
+    }
+
+    .paragrafo-section-2 p {
+        /* estilização do parágrafo */
+        font-size: 25px;
+        /* tamanho da letra */
+    }
+
+        .div-icon i {
+            /* div que guarda os ícones */
+            display: flex;
+            /* tornando a caixa do flex */
+            gap: 20px;
+            /* brecha entre os Icon */
+        }
+
+        /* fim da section-02 */
+
+        /* icio section-03 */
+        .section-03 {
+            background-image: url();
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            padding: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .section-03 button {
+            padding: 7px;
+            /* preenchimento interno */
+            width: 150px;
+            /* largura do button */
+            background-color: black;
+            /* cor de fundo */
+            color: black;
+            /* cor da letra */
+            font-weight: 800;
+            /* espessura da letra */
+            border: none;
+            /* removendo bordas do button */
+        }
+
+        .hr {}
+
+        /* section 07 */
+        .section-07 {
+            background-image: url();
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: fixed;
+            padding: 180px;
+            display: flex;
+            /* alinhamento vertical */
+            justify-content: center;
+            /* alinhamento horizontal */
+        }
+
+        .btn {
+            padding: 7px;
+            background-color: aquamarine;
+            color: blueviolet;
+            width: 150px;
+            border: none;
+        }
+
+        .section-04 {
+            width: 300px;
+            /* largura da caixa */
+            height: 300px;
+            /* altura da caixa */
+            background-color: aquamarine;
+            /* cor de fundo */
+            padding: 15px;
+            /* preenchimento interno */
+            text-align: center;
+            /* alinhamento dos texts */
+        }
+
+        /* formatação da section 05} */
+        .section-05 {
+            display: flex;
+            /* deixando as div lado a lado */
+            align-items: center;
+            /* alinhamento vertical */
+            justify-content: space-evenly;
+            /* alinhamento horizontal */
+            gap: 30px;
+            /* espaço entre as caixa */
+            padding: 60px;
+            /* preenchimento interno das div */
+            background-color: blue;
+        }
+
+        .section-05 div {
+            width: 300px;
+            height: 300px;
+            padding: 15px;
+            background-color: burlywood;
+            text-align: center;
+        }
+
+        /* estilização div-02 | segunda caixa */
+        .caixa-02 {
+            background-image: url();
+            /* inserindo img no fundo */
+            background-position: center;
+            /* posicionamento img */
+            background-repeat: repeat;
+            /* desativando a repetição */
+            background-size: cover;
+            /* preenchimento completo img */
+            /* background-attachment: fixed */
+        }
+
+        /* estilização div-02 | segunda caixa */
+        .caixa-03 {
+            background-image: url();
+            /* inserindo img de fundo */
+            background-position: center;
+            /* posicionamento img */
+            background-repeat: no-repeat;
+            /* desativando a repetição */
+            background-size: cover;
+            /* preenchimento completo img */
+            /* background-attachment: fixed */
+        }
+        /* estilização título caixa 01 */
+        .caixa-01 h2 {
+            font-size: 25px;/* tamanho da letra */
+            text-transform: uppercase; /* letra em caixa alta */
+            margin-top: 30px; /* espaçamento superior */
+        }
+        /* estilização do parágrafo caixa 01 */
+        .caixa-01 p {
+            font-size: 20px;
+            /* tamanho da letra */
+            font-weight: 700;
+            /* peso da font */
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        /* estilização dos ícones */
+        .fa-star, .fa-star-half {
+            font-size: 70px;
+            /* tamanho do icon */
+            color: cadetblue;
+            /* cores do icon */
+        }
+        .fa-github {
+            font-size: 70px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: aqua;
+        }
+        .caixa-03 p {
+            font-size: 20px;
+            /* tamanho da letra */
+            font-weight: 700;
+            /* peso da font */
+
+        }
+        /* estilizando button caixa 03 */
+        .caixa-03 button {
+            padding: 7px;
+            /* preenchimento interno */
+            background-color: bisque;
+            /* cor de fundo */
+            color: aqua;/* cor da letra */
+            width: 130px;
+            /* largura do button */
+            border: none;
+            /* removendo borda */
+        }
+        .footer {
+            background-color: black;
+            padding: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .footer . {
+            color: blue;
+            font-size: 40px;
+        }
+        .caixa-footer {
+            text-align: center;
+        }
