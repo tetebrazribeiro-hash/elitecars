@@ -2,7 +2,7 @@
 
 /* Estilizando o Header */
 .cabecalho {
-    background-color: black;
+    background-color: gray;
     /* cor de fundo  do header*/
     display: flex;
     /* tornando os itens lado a lado | flexbox */
@@ -54,29 +54,22 @@
     /* section 01 */
     .img-section-01 {
         width: 300px;
-        /* largura da imagem */
+     /* largura da imagem */
     }
 
     .section-01 {
-        display: flex;
-        /* tornano o div lado a lado| flexbox */
-        align-items: center;
-        /* Alinhamento vertical */
-        justify-content: space-evenly;
-        /* Alinhamento horizontal */
-        flex-direction: row;
-        /* direção de caixas */
-        background-color: aqua;
-        /* cor de fundo */
-        padding: 40px;
-        /* preenchimento interno */
-        gap: 30px;
-        /* espaço entre as div */
+        display: flex;/* tornano o div lado a lado | flexbox */
+        align-items: center;/* Alinhamento vertical */
+        justify-content: space-evenly;/* Alinhamento horizontal */
+        flex-direction: row;/* direção de caixas */
+        background-color: black;/* cor de fundo */
+        padding: 40px;/* preenchimento interno */
+        gap: 30px; /* espaço entre as div */
     }
 
     .div-02 p {
-        background-color: brown;
-        font-size: 30px;
+        background-color: darkgray;
+        font-size: 40px;
         /* tamanho da font */
         margin-left: 30px;
         /* margem da esquerda - espaçamento */
@@ -86,7 +79,7 @@
 
     /* texto na section-01 */
     span {
-        color: brown;
+        color: red;
         /* cor da letra do span */
         font-size: 40px;
         /* tamanho da letra do span */
@@ -97,15 +90,15 @@
     /* Ícones devem ser manipulados como textos (font-size,color...) */
     .fa-solid {
         font-size: 60px;
-        color: blue;
+        color: gray;
         /* cor de fundo */
     }
     .sectio-02 {
-        background-color: aqua;
+        background-color: darkblue;
         /* cor de fundo */
         padding: 80px;
         /* preenchimento interno */
-        color: blueviolet;
+        color: black;
         /* cor das letras (H2 e P */
         display: flex;
         /* Tornando aas div lado a lado */
@@ -116,7 +109,7 @@
         text-align: center;
         /* alinhamento texto ao centro */
     }
-    /* estilização di título section2 */
+    /* estilização do título section2 */
     .paragrafo-section-2 h2 {
         font-size: 30px;
         /* tamanho do texto h2 */
@@ -142,7 +135,7 @@
 
         /* icio section-03 */
         .section-03 {
-            background-image: url();
+            background-image: url(carro.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -157,7 +150,7 @@
             /* preenchimento interno */
             width: 150px;
             /* largura do button */
-            background-color: black;
+            background-color: yellow;
             /* cor de fundo */
             color: black;
             /* cor da letra */
@@ -171,7 +164,7 @@
 
         /* section 07 */
         .section-07 {
-            background-image: url();
+            background-image: url(g.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: fixed;
@@ -184,8 +177,8 @@
 
         .btn {
             padding: 7px;
-            background-color: aquamarine;
-            color: blueviolet;
+            background-color: black;
+            color: sandybrown;
             width: 150px;
             border: none;
         }
@@ -195,7 +188,7 @@
             /* largura da caixa */
             height: 300px;
             /* altura da caixa */
-            background-color: aquamarine;
+            background-color: cadetblue;
             /* cor de fundo */
             padding: 15px;
             /* preenchimento interno */
@@ -222,13 +215,13 @@
             width: 300px;
             height: 300px;
             padding: 15px;
-            background-color: burlywood;
+            background-color: red;
             text-align: center;
         }
 
         /* estilização div-02 | segunda caixa */
         .caixa-02 {
-            background-image: url();
+            background-image: url(gss.png);
             /* inserindo img no fundo */
             background-position: center;
             /* posicionamento img */
@@ -306,7 +299,7 @@
             justify-content: center;
             flex-direction: column;
         }
-        .footer . {
+        .footer .fa-car-solid .fa-car-burst .fa-caret-down {
             color: blue;
             font-size: 40px;
         }
