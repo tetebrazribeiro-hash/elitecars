@@ -2,7 +2,8 @@
 
 /* Estilizando o Header */
 .cabecalho {
-    background-color: gray;
+    
+    background-color: grey;
     /* cor de fundo
      do header*/
     display: flex;
@@ -39,7 +40,7 @@ width: 100px; /* largura da logo Header */
 .ul-lista li a {
     text-decoration: none;
     /* Removendo o sublinhado da âncora */
-    color: darkred;
+    color: bisque;
     /* Cor da letra */
     font-size: 20px;
     /* tamanho da letra */
@@ -67,7 +68,7 @@ width: 100px; /* largura da logo Header */
     /* Alinhamento horizontal */
     flex-direction: row;
     /* direção de caixas */
-    background-color: slategray;
+    background-color: cornsilk;
     /* cor de fundo */
     padding: 40px;
     /* preenchimento interno */
@@ -76,12 +77,12 @@ width: 100px; /* largura da logo Header */
 }
 
 .div-02 p {
-    background-color: darkgray;
+    background-color: darkblue;
     /* cor da letra */
     font-size: 40px;
     /* tamanho da font */
     margin-left: 30px;
-    /* margem da esquerda - espaçamento */
+    /* margem da esquerda-espaçamento */
     text-align: center;
     /* Alinhamento do texto */
 }
@@ -100,8 +101,13 @@ span {
 /* Ícones devem ser manipulados como textos (font-size,color...) */
 .fa-solid {
     font-size: 60px;
-    color: gray;
+    color: blue;
     /* cor de fundo */
+    display: flex;          /* flexbox para alinhar lado a lado */
+    flex-direction: row;    /* horizontal */
+    justify-content: center; /* centraliza horizontalmente na seção */
+    align-items: center;     /* centraliza verticalmente */
+    gap: 40px;               /* espaço entre os ícones */
 }
 
 .section-02 {
@@ -136,9 +142,8 @@ span {
 }
 
 .div-icon i {
-    /* div que guarda os ícones */
-    display: flex;
-    /* tornando a caixa do flex */
+    /* div que guarda os icones */
+    display: flex;/* alinhamento lado a lado*/
     gap: 20px;
     /* brecha entre os Icon */
 }
@@ -147,7 +152,7 @@ span {
 
 /* inicio section-03 */
 .section-03 {
-    background-image: url(carros.jpg);
+    background-image: url(DeLorean.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -172,15 +177,13 @@ span {
     /* removendo bordas do button */
 }
 
-.hr 
-
 /* section 05 */
 .section-05 {
-    background-image: url(g.jpg);
+    background-color: #8C1F28;/* cor de fundo */
     background-position: center;
     background-repeat: no-repeat;
-    background-size: fixed;
-    padding: 180px;
+    background-size: cover;
+    padding: 180px;/* preenchimento interno */
     display: flex;/* alinhamento vertical */
     justify-content: center;/* alinhamento horizontal */
 
@@ -231,8 +234,7 @@ span {
     /* inserindo img no fundo */
     background-position: center;
     /* posicionamento img */
-    background-repeat: repeat;
-    /* desativando a repetição */
+    background-repeat: no-repeat;
     background-size: cover;
     /* preenchimento completo img */
     /* background-attachment: fixed */
@@ -258,18 +260,11 @@ span {
     margin-bottom: 25px;
 }
 
-/* estilfização dos ícones */
-.fa-instragram,
-.fa-whatsapp, .fa-whatsapp{
+/* estiização dos cones */
+.fa-instagram,
+.fa-whatsapp, .fa-youtube{
     font-size: 70px; /* tamanho do icon */
     color: black;/* cores do icon */
-}
-
-.fa-youtube {
-    font-size: 70px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    color: black;
 }
 
 .caixa-03 p {
@@ -277,6 +272,8 @@ span {
     /* tamanho da letra */
     font-weight: 700;
     /* peso da font */
+    margin-top: 20px;
+    margin-bottom: 25px;
 
 }
 
@@ -295,16 +292,15 @@ span {
 }
 
 .footer {
-    background-color: honeydew;
-    padding: 80px;
-    color: red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background-color: honeydew;/* cor de fundo */
+  padding: 30px;
+  display: flex; /* deixando as div lado a lado */
+  justify-content: space-between;/* alinhamento horizontal */
+  align-items: center; /* alinhamento horizontal */
 }
 
-.footer .fa-instragram, .fa-whatsapp,
+
+.footer .fa-instagram, .fa-whatsapp,
 .fa-youtube {
     color: black;
     font-size: 40px;
@@ -312,4 +308,5 @@ span {
 
 .caixa-footer-icon {
     text-align: center;
+    display: flex;/* espaçamento entre as icones */
 }
